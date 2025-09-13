@@ -1,0 +1,48 @@
+/* === Custom Glow Effects === */
+
+/* Blue glowing and rotating text */
+.glow-blue {
+  color: #00f;
+  text-shadow: 0 0 10px #00f, 0 0 20px #00f, 0 0 30px #00f;
+  animation: spin 6s linear infinite;
+  display: inline-block;
+}
+
+/* Green glowing text */
+.glow-green {
+  color: #0f0;
+  text-shadow: 0 0 10px #0f0, 0 0 20px #0f0;
+}
+
+/* Green glowing crop box */
+.glow-crop {
+  border: 2px solid #0f0;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 0 20px #0f0;
+  display: inline-block;
+}
+
+/* White glowing crop box */
+.glow-white {
+  border: 2px solid #fff;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 0 20px #fff;
+  display: inline-block;
+}
+
+/* Spin animation */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Optional: smooth hover transitions for buttons */
+a {
+  transition: all 0.3s ease-in-out;
+}
