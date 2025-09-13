@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elijah Tech Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Glowing animation */
+    .glow-blue {
+      color: #00f;
+      text-shadow: 0 0 10px #00f, 0 0 20px #00f, 0 0 30px #00f;
+      animation: spin 6s linear infinite;
+      display: inline-block;
+    }
+    .glow-green {
+      color: #0f0;
+      text-shadow: 0 0 10px #0f0, 0 0 20px #0f0;
+    }
+    .glow-crop {
+      border: 2px solid #0f0;
+      border-radius: 12px;
+      padding: 1rem;
+      box-shadow: 0 0 20px #0f0;
+      display: inline-block;
+    }
+    .glow-white {
+      border: 2px solid #fff;
+      border-radius: 12px;
+      padding: 1rem;
+      box-shadow: 0 0 20px #fff;
+      display: inline-block;
+    }
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-white font-sans p-6">
+
+  <!-- Name -->
+  <h1 class="text-4xl font-bold glow-blue">Elijah Tech</h1>
+  
+  <!-- Nickname -->
+  <h2 class="text-2xl font-semibold glow-green mt-2">GLEN TECH</h2>
+  
+  <!-- Bio -->
+  <div class="mt-4 glow-crop">
+    <p class="text-blue-400 max-w-xl">
+      "Hi, I'm Elijah, a passionate developer with a knack for crafting innovative solutions.
+      With expertise in [list your key skills or technologies], I build scalable, efficient, and 
+      user-friendly applications that drive impact. Let's connect and create something amazing together!"
+    </p>
+  </div>
+
+  <!-- Skills -->
+  <h3 class="text-3xl mt-8 text-purple-400 font-bold">Skills</h3>
+  <div class="mt-2 glow-white text-purple-200">
+    <ul class="list-disc pl-6">
+      <li>Programming languages: JavaScript, Python, Java, C++, etc.</li>
+      <li>Front-end development: React, Angular, Vue.js, HTML/CSS, etc.</li>
+      <li>Back-end development: Node.js, Django, Ruby on Rails, etc.</li>
+      <li>Databases: MySQL, MongoDB, PostgreSQL, etc.</li>
+      <li>Cloud platforms: AWS, Azure, Google Cloud, etc.</li>
+    </ul>
+  </div>
+
+  <!-- Projects -->
+  <h3 class="text-3xl mt-8 text-red-500 font-bold">Projects</h3>
+  <div class="bg-black text-white p-4 rounded-lg mt-2">
+    <p>I have done <span class="font-bold">20 projects</span> complete and all the clients were certified ✅</p>
+  </div>
+
+  <!-- Contact -->
+  <h3 class="text-3xl mt-8 text-blue-400 font-bold">Contact Information</h3>
+  <div class="flex flex-col gap-4 mt-4">
+
+    <!-- WhatsApp -->
+    <a href="https://wa.me/25410488236947" target="_blank"
+       class="flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg shadow-lg w-max">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" class="w-6 h-6" alt="WhatsApp" />
+      WhatsApp (25410488236947, 254723429627)
+    </a>
+
+    <!-- Facebook -->
+    <a href="https://facebook.com" target="_blank"
+       class="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg shadow-lg w-max">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" class="w-6 h-6" alt="Facebook" />
+      Facebook: Glen El
+    </a>
+
+    <!-- Instagram -->
+    <a href="https://instagram.com/elijahombogoondieki" target="_blank"
+       class="flex items-center gap-2 bg-pink-500 hover:bg-pink-600 text-white px-4 py-2 rounded-lg shadow-lg w-max">
+      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" class="w-6 h-6" alt="Instagram"
